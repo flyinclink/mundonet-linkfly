@@ -10,6 +10,7 @@ HTML + CSS + JS estáticos, coluna mobile centralizada, deploy no GitHub Pages.
 |-------|---------|
 | Quero contratar a MundoNet | WhatsApp (98) 3042-0030 |
 | Sorteio PS5 + GTA 6 | https://indique.mundonetbandalarga.com.br/campanha.html |
+| Indique e ganhe | https://indique.mundonetbandalarga.com.br/ |
 | Baixe nosso app | https://app.mundonetbandalarga.com.br/mundonet+ |
 | Central do Assinante | https://ixc.mundonetbandalarga.com.br/central_assinante_web/login |
 | Conheça nossos planos | https://mundonetbandalarga.com.br/ |
