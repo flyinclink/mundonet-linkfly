@@ -20,6 +20,7 @@ HTML + CSS + JS estáticos, coluna mobile centralizada, deploy no GitHub Pages.
 - `01-logo.jpg` — foto de perfil (astronauta)
 - `05-sorteio-bg.png` — fundo do botão do sorteio (1200x285)
 - `06-vi.png` — logo "VI" do botão do sorteio
+- `07-espaco-preto.jpg` — fundo de espaço (estrelas)
 - `02-post.jpg` — post da Black Friday (fora da página no momento)
 
 ## Rodar localmente

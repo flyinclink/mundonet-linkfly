@@ -6,8 +6,8 @@
 
 :root {
   /* ---------- PALETA DO CLIENTE — MundoNet (azul royal / azul claro / roxo) ---------- */
-  --bg-page:   #06134a;   /* fundo atrás da coluna (azul noite) */
-  --bg:        #0b1f73;   /* fundo da coluna / página           */
+  --bg-page:   #020308;   /* fundo atrás da coluna (preto espacial) */
+  --bg:        #05070f;   /* fundo da coluna / página (preto azulado) */
   --card:      #142c93;   /* cards de link                      */
   --card-2:    #1c3aad;   /* botões redondos das redes          */
   --card-dark: #2f7bff;   /* CTA principal (azul claro)         */
@@ -559,7 +559,7 @@ body {
   background:
     var(--star) 0 0 / 240px 260px,
     var(--star-far) 0 0 / 130px 160px,
-    radial-gradient(ellipse at 15% 10%, rgba(90, 60, 200, .25), transparent 55%),
+    radial-gradient(ellipse at 15% 10%, rgba(70, 50, 180, .14), transparent 55%),
     var(--bg-page);
   background-attachment: fixed;
 }
@@ -567,7 +567,17 @@ body {
   background:
     var(--star) 0 0 / 240px 260px,
     var(--star-far) 30px 50px / 130px 160px,
-    radial-gradient(ellipse at 80% 0%, rgba(120, 80, 255, .28), transparent 50%),
-    radial-gradient(ellipse at 0% 70%, rgba(47, 123, 255, .22), transparent 55%),
+    radial-gradient(ellipse at 80% 0%, rgba(110, 70, 255, .16), transparent 50%),
+    radial-gradient(ellipse at 0% 70%, rgba(47, 123, 255, .12), transparent 55%),
     var(--bg);
+}
+
+/* ---------- Fundo com imagem de espaço ---------- */
+/* fundo: img/07-espaco-preto.jpg (gerado no GPT) */
+:root { --space-img: url("img/07-espaco-preto.jpg"); }
+body {
+  background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)), var(--space-img) center / cover no-repeat fixed, var(--bg-page);
+}
+.page {
+  background: var(--space-img) center top / cover no-repeat, var(--bg);
 }
